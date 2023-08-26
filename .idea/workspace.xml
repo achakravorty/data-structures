@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="easy array problem - Move all negative elements to end">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/CyclicallyRotateByOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Arrays/CyclicallyRotateByOneTest.java" afterDir="false" />
+    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="medium array problem - cyclically rotate array by one">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/MissingNumberInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Arrays/MissingNumberInArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,20 +67,7 @@
       <recent name="Arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CyclicallyRotateByOneTest.testRotate">
-    <configuration name="KthSmallestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.KthSmallestElement" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MissingNumberInArrayTest.testMissingNumber">
     <configuration name="MoveAllNegElementsToEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.MoveAllNegElementsToEnd" />
       <module name="DataStructures" />
@@ -136,13 +123,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MissingNumberInArrayTest.testMissingNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Arrays" />
+      <option name="MAIN_CLASS_NAME" value="Arrays.MissingNumberInArrayTest" />
+      <option name="METHOD_NAME" value="testMissingNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MissingNumberInArrayTest.testMissingNumber" />
         <item itemvalue="JUnit.CyclicallyRotateByOneTest.testRotate" />
         <item itemvalue="Application.MoveAllNegElementsToEnd" />
         <item itemvalue="Application.SubarrayWithGivenSum" />
         <item itemvalue="Application.SortArrayof0s1s2s" />
-        <item itemvalue="Application.KthSmallestElement" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +162,7 @@
       <workItem from="1691286522749" duration="50000" />
       <workItem from="1691723881122" duration="8781000" />
       <workItem from="1692954366267" duration="8172000" />
-      <workItem from="1693033532293" duration="8946000" />
+      <workItem from="1693033532293" duration="10034000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1690444865290</created>
@@ -210,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693046949982</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="medium array problem - cyclically rotate array by one">
+      <created>1693058491974</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1693058491974</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +244,7 @@
     <MESSAGE value="easy question of Array - Subarray with given sum" />
     <MESSAGE value="docs - added comment to Subarray with given Sum" />
     <MESSAGE value="easy array problem - Move all negative elements to end" />
-    <option name="LAST_COMMIT_MESSAGE" value="easy array problem - Move all negative elements to end" />
+    <MESSAGE value="medium array problem - cyclically rotate array by one" />
+    <option name="LAST_COMMIT_MESSAGE" value="medium array problem - cyclically rotate array by one" />
   </component>
 </project>
