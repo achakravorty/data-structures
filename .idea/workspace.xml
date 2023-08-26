@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="medium array problem - cyclically rotate array by one">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/MissingNumberInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Arrays/MissingNumberInArrayTest.java" afterDir="false" />
+    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="medium array problem - find missing number in an array">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/LeadersInAnArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -162,7 +161,7 @@
       <workItem from="1691286522749" duration="50000" />
       <workItem from="1691723881122" duration="8781000" />
       <workItem from="1692954366267" duration="8172000" />
-      <workItem from="1693033532293" duration="10034000" />
+      <workItem from="1693033532293" duration="11778000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1690444865290</created>
@@ -220,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693058491974</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="medium array problem - find missing number in an array">
+      <created>1693059625028</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1693059625028</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +251,7 @@
     <MESSAGE value="docs - added comment to Subarray with given Sum" />
     <MESSAGE value="easy array problem - Move all negative elements to end" />
     <MESSAGE value="medium array problem - cyclically rotate array by one" />
-    <option name="LAST_COMMIT_MESSAGE" value="medium array problem - cyclically rotate array by one" />
+    <MESSAGE value="medium array problem - find missing number in an array" />
+    <option name="LAST_COMMIT_MESSAGE" value="medium array problem - find missing number in an array" />
   </component>
 </project>
