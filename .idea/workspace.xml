@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="medium array problem - find leader in an array">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/EquilibriumPoint.java" afterDir="false" />
+    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="medium array problem - find equilibrium point">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/FindDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,7 +163,7 @@
       <workItem from="1691286522749" duration="50000" />
       <workItem from="1691723881122" duration="8781000" />
       <workItem from="1692954366267" duration="8172000" />
-      <workItem from="1693033532293" duration="14872000" />
+      <workItem from="1693033532293" duration="16674000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1690444865290</created>
@@ -234,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693061966058</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="medium array problem - find equilibrium point">
+      <created>1693064742696</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1693064742696</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +269,7 @@
     <MESSAGE value="medium array problem - cyclically rotate array by one" />
     <MESSAGE value="medium array problem - find missing number in an array" />
     <MESSAGE value="medium array problem - find leader in an array" />
-    <option name="LAST_COMMIT_MESSAGE" value="medium array problem - find leader in an array" />
+    <MESSAGE value="medium array problem - find equilibrium point" />
+    <option name="LAST_COMMIT_MESSAGE" value="medium array problem - find equilibrium point" />
   </component>
 </project>
