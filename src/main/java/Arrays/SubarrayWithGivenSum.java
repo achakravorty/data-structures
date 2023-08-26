@@ -9,6 +9,7 @@ public class SubarrayWithGivenSum {
     //Function to find a continuous sub-array which adds up to a given number.
     public static ArrayList<Integer> subarraySum(int[] arr, int n, int s) {
 
+        //USING SLIDING WINDOW
         //have 2 pointers i, j
         //traverse left to right
         //add j to sum
