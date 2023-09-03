@@ -14,12 +14,28 @@ public class FindDuplicates {
 
     public static ArrayList<Integer> duplicates(int[] arr, int n) {
 
-        //without using extra space
+        //using extra space - hashing
+        // brute force with extra array - add count of occurrences
+        // to extra array
+
         ArrayList<Integer> list = new ArrayList<>();
 
-        return list;
+        int[] check = new int[n];
 
-        // brute force with extra array - add count of occourances
-        // to extra array
+        for (int i = 0; i < n; i++) {
+            check[arr[i]]++;
+        }
+
+        for (int j = 0; j < n; j++) {
+            if (check[j] > 1) {
+                list.add(j);
+            }
+        }
+
+        if (list.isEmpty()) {
+            list.add(-1);
+        }
+
+        return list;
     }
 }
