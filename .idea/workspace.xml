@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="basic SLL problem - print element of LL">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedList/NodeAtGivenIndexInLL.java" afterDir="false" />
+    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="basic SLL problem - Node at given index in LL">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedList/NthNodefromEndOfLL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,7 +162,7 @@
       <workItem from="1693033532293" duration="17155000" />
       <workItem from="1693119553682" duration="816000" />
       <workItem from="1693653249743" duration="1035000" />
-      <workItem from="1693720101194" duration="15271000" />
+      <workItem from="1693720101194" duration="16913000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1690444865290</created>
@@ -332,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693735216580</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="basic SLL problem - Node at given index in LL">
+      <created>1693736496985</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1693736496985</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,6 +379,7 @@
     <MESSAGE value="basic SLL problem - count nodes of linked list" />
     <MESSAGE value="basic SLL problem - check is it is circular" />
     <MESSAGE value="basic SLL problem - print element of LL" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic SLL problem - print element of LL" />
+    <MESSAGE value="basic SLL problem - Node at given index in LL" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic SLL problem - Node at given index in LL" />
   </component>
 </project>
