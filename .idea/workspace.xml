@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="medium array problem - find duplicates">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/SecondLargestElement.java" afterDir="false" />
+    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="easy string problem - palindrome checker">
+      <change afterPath="$PROJECT_DIR$/src/main/java/String/ReverseWordsInGivenString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +67,7 @@
       <recent name="Arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SecondLargestElement">
+  <component name="RunManager" selected="Application.ReverseWordsInGivenString">
     <configuration name="EquilibriumPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.EquilibriumPoint" />
       <module name="DataStructures" />
@@ -81,12 +81,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveAllNegElementsToEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.MoveAllNegElementsToEnd" />
+    <configuration name="PalindromeChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.PalindromeChecker" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseWordsInGivenString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.ReverseWordsInGivenString" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,22 +116,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CyclicallyRotateByOneTest.testRotate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Arrays" />
-      <option name="MAIN_CLASS_NAME" value="Arrays.CyclicallyRotateByOneTest" />
-      <option name="METHOD_NAME" value="testRotate" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -141,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseWordsInGivenString" />
+        <item itemvalue="Application.PalindromeChecker" />
         <item itemvalue="Application.SecondLargestElement" />
         <item itemvalue="Application.EquilibriumPoint" />
         <item itemvalue="JUnit.MissingNumberInArrayTest.testMissingNumber" />
-        <item itemvalue="JUnit.CyclicallyRotateByOneTest.testRotate" />
-        <item itemvalue="Application.MoveAllNegElementsToEnd" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +162,7 @@
       <workItem from="1693033532293" duration="17155000" />
       <workItem from="1693119553682" duration="816000" />
       <workItem from="1693653249743" duration="1035000" />
-      <workItem from="1693720101194" duration="5221000" />
+      <workItem from="1693720101194" duration="7436000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1690444865290</created>
@@ -258,7 +255,21 @@
       <option name="project" value="LOCAL" />
       <updated>1693722212788</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="easy array problem - find second largest element">
+      <created>1693725812329</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1693725812329</updated>
+    </task>
+    <task id="LOCAL-00015" summary="easy string problem - palindrome checker">
+      <created>1693726425725</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1693726425725</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,17 +299,8 @@
     <MESSAGE value="medium array problem - find equilibrium point" />
     <MESSAGE value="medium array problem - find duplicates (only method desc)" />
     <MESSAGE value="medium array problem - find duplicates" />
-    <option name="LAST_COMMIT_MESSAGE" value="medium array problem - find duplicates" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Arrays/SecondLargestElement.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="easy array problem - find second largest element" />
+    <MESSAGE value="easy string problem - palindrome checker" />
+    <option name="LAST_COMMIT_MESSAGE" value="easy string problem - palindrome checker" />
   </component>
 </project>
