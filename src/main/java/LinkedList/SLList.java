@@ -1,3 +1,5 @@
+package LinkedList;
+
 public class SLList {
 
     class Node {
@@ -50,7 +52,7 @@ public class SLList {
         }
     }
 
-    // Each object in SLList has one field head, which points to the starting Node of SLList.
+    // Each object in LinkedList.SLList has one field head, which points to the starting Node of LinkedList.SLList.
     private Node head;
 
     /**
