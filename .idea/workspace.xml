@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="basic SLL problem - count nodes of linked list">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedList/CheckIfCircularLinkedList.java" afterDir="false" />
+    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="basic SLL problem - check is it is circular">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedList/PrintEleementsOfSLL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,7 +162,7 @@
       <workItem from="1693033532293" duration="17155000" />
       <workItem from="1693119553682" duration="816000" />
       <workItem from="1693653249743" duration="1035000" />
-      <workItem from="1693720101194" duration="13548000" />
+      <workItem from="1693720101194" duration="14246000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1690444865290</created>
@@ -318,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693734104849</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="basic SLL problem - check is it is circular">
+      <created>1693734607516</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1693734607516</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,6 +363,7 @@
     <MESSAGE value="easy SLL problem - detect loop" />
     <MESSAGE value="basic SLL problem - linked list insertion start and end" />
     <MESSAGE value="basic SLL problem - count nodes of linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic SLL problem - count nodes of linked list" />
+    <MESSAGE value="basic SLL problem - check is it is circular" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic SLL problem - check is it is circular" />
   </component>
 </project>
