@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="medium array problem - find duplicates (only method desc)">
+    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="medium array problem - find duplicates">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/SecondLargestElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Arrays/FindDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Arrays/FindDuplicates.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,7 @@
       <recent name="Arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EquilibriumPoint">
+  <component name="RunManager" selected="Application.SecondLargestElement">
     <configuration name="EquilibriumPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.EquilibriumPoint" />
       <module name="DataStructures" />
@@ -94,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubarrayWithGivenSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.SubarrayWithGivenSum" />
+    <configuration name="SecondLargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.SecondLargestElement" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -141,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SecondLargestElement" />
         <item itemvalue="Application.EquilibriumPoint" />
         <item itemvalue="JUnit.MissingNumberInArrayTest.testMissingNumber" />
         <item itemvalue="JUnit.CyclicallyRotateByOneTest.testRotate" />
         <item itemvalue="Application.MoveAllNegElementsToEnd" />
-        <item itemvalue="Application.SubarrayWithGivenSum" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +165,7 @@
       <workItem from="1693033532293" duration="17155000" />
       <workItem from="1693119553682" duration="816000" />
       <workItem from="1693653249743" duration="1035000" />
-      <workItem from="1693720101194" duration="1857000" />
+      <workItem from="1693720101194" duration="5221000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1690444865290</created>
@@ -251,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693066719736</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="medium array problem - find duplicates">
+      <created>1693722212787</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1693722212788</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +287,18 @@
     <MESSAGE value="medium array problem - find leader in an array" />
     <MESSAGE value="medium array problem - find equilibrium point" />
     <MESSAGE value="medium array problem - find duplicates (only method desc)" />
-    <option name="LAST_COMMIT_MESSAGE" value="medium array problem - find duplicates (only method desc)" />
+    <MESSAGE value="medium array problem - find duplicates" />
+    <option name="LAST_COMMIT_MESSAGE" value="medium array problem - find duplicates" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Arrays/SecondLargestElement.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
