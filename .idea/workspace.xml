@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="basic LL problem - Delete from given position of DLL">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedList/DeleteAlternateNodesOfSLL.java" afterDir="false" />
+    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="basic LL problem - Delete alternate nodes of LL">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedList/ModularNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -158,7 +158,7 @@
       <workItem from="1693119553682" duration="816000" />
       <workItem from="1693653249743" duration="1035000" />
       <workItem from="1693720101194" duration="21205000" />
-      <workItem from="1693823976696" duration="7059000" />
+      <workItem from="1693823976696" duration="8382000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1690444865290</created>
@@ -398,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693832216883</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="basic LL problem - Delete alternate nodes of LL">
+      <created>1693833284166</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1693833284166</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,7 +423,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="medium array problem - find missing number in an array" />
     <MESSAGE value="medium array problem - find leader in an array" />
     <MESSAGE value="medium array problem - find equilibrium point" />
     <MESSAGE value="medium array problem - find duplicates (only method desc)" />
@@ -441,6 +447,7 @@
     <MESSAGE value="basic LL problem - Identical Linked Lists" />
     <MESSAGE value="basic LL problem - Insert in Middle of LL" />
     <MESSAGE value="basic LL problem - Delete from given position of DLL" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic LL problem - Delete from given position of DLL" />
+    <MESSAGE value="basic LL problem - Delete alternate nodes of LL" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic LL problem - Delete alternate nodes of LL" />
   </component>
 </project>
