@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="easy LL problem - find middle element of LL">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedList/ReverseLinkedList.java" afterDir="false" />
+    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="easy LL problem - Reverse a Linked list">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedList/RemoveDuplicatesFromSortedLL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -158,7 +158,7 @@
       <workItem from="1693119553682" duration="816000" />
       <workItem from="1693653249743" duration="1035000" />
       <workItem from="1693720101194" duration="21205000" />
-      <workItem from="1693823976696" duration="11704000" />
+      <workItem from="1693823976696" duration="13480000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1690444865290</created>
@@ -419,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693839250709</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="easy LL problem - Reverse a Linked list">
+      <created>1693841531149</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1693841531149</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,7 +444,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="medium array problem - find duplicates (only method desc)" />
     <MESSAGE value="medium array problem - find duplicates" />
     <MESSAGE value="easy array problem - find second largest element" />
     <MESSAGE value="easy string problem - palindrome checker" />
@@ -462,6 +468,7 @@
     <MESSAGE value="basic LL problem - Delete alternate nodes of LL" />
     <MESSAGE value="basic LL problem - find modular node of SLL" />
     <MESSAGE value="easy LL problem - find middle element of LL" />
-    <option name="LAST_COMMIT_MESSAGE" value="easy LL problem - find middle element of LL" />
+    <MESSAGE value="easy LL problem - Reverse a Linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="easy LL problem - Reverse a Linked list" />
   </component>
 </project>
