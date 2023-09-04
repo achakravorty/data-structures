@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="easy LL problem - Remove duplicates from sorted LL">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedList/RemoveDuplicatesFromUnsortedLL.java" afterDir="false" />
+    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="easy LL problem - (not complete, only idea) Remove duplicates from UNSORTED LL">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedList/DeleteNodeFromPositionSLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedList/DeleteNodeWithoutHeadPointerSLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +159,7 @@
       <workItem from="1693119553682" duration="816000" />
       <workItem from="1693653249743" duration="1035000" />
       <workItem from="1693720101194" duration="21205000" />
-      <workItem from="1693823976696" duration="13989000" />
+      <workItem from="1693823976696" duration="15759000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1690444865290</created>
@@ -432,7 +434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693843415948</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="easy LL problem - (not complete, only idea) Remove duplicates from UNSORTED LL">
+      <created>1693844223222</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1693844223222</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,7 +459,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="easy array problem - find second largest element" />
     <MESSAGE value="easy string problem - palindrome checker" />
     <MESSAGE value="easy string problem - reverse words in given string" />
     <MESSAGE value="Singly Linked List Implemantation" />
@@ -475,6 +483,7 @@
     <MESSAGE value="easy LL problem - find middle element of LL" />
     <MESSAGE value="easy LL problem - Reverse a Linked list" />
     <MESSAGE value="easy LL problem - Remove duplicates from sorted LL" />
-    <option name="LAST_COMMIT_MESSAGE" value="easy LL problem - Remove duplicates from sorted LL" />
+    <MESSAGE value="easy LL problem - (not complete, only idea) Remove duplicates from UNSORTED LL" />
+    <option name="LAST_COMMIT_MESSAGE" value="easy LL problem - (not complete, only idea) Remove duplicates from UNSORTED LL" />
   </component>
 </project>
