@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="basic Stack problem - Stack Implementation using Linked list">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedList/IdenticalLinkedLists.java" afterDir="false" />
+    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="basic LL problem - Identical Linked Lists">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedList/InsertInMiddleOfLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -158,7 +158,7 @@
       <workItem from="1693119553682" duration="816000" />
       <workItem from="1693653249743" duration="1035000" />
       <workItem from="1693720101194" duration="21205000" />
-      <workItem from="1693823976696" duration="3252000" />
+      <workItem from="1693823976696" duration="4597000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1690444865290</created>
@@ -377,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693827585894</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="basic LL problem - Identical Linked Lists">
+      <created>1693829317918</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1693829317918</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,7 +402,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="docs - added comment to Subarray with given Sum" />
     <MESSAGE value="easy array problem - Move all negative elements to end" />
     <MESSAGE value="medium array problem - cyclically rotate array by one" />
     <MESSAGE value="medium array problem - find missing number in an array" />
@@ -420,6 +426,7 @@
     <MESSAGE value="basic Queue problem - Simple Queue Implementation Using Array" />
     <MESSAGE value="basic Tree problem - Preorder traversal of binary tree (with recursion)" />
     <MESSAGE value="basic Stack problem - Stack Implementation using Linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic Stack problem - Stack Implementation using Linked list" />
+    <MESSAGE value="basic LL problem - Identical Linked Lists" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic LL problem - Identical Linked Lists" />
   </component>
 </project>
