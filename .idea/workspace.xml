@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="easy LL problem - (not complete, only idea) Remove duplicates from UNSORTED LL">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedList/DeleteNodeFromPositionSLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedList/DeleteNodeWithoutHeadPointerSLL.java" afterDir="false" />
+    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="easy LL problem - Delete node from position of SLL">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Queue/QueueUsingLLImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,21 +44,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -159,7 +158,8 @@
       <workItem from="1693119553682" duration="816000" />
       <workItem from="1693653249743" duration="1035000" />
       <workItem from="1693720101194" duration="21205000" />
-      <workItem from="1693823976696" duration="15759000" />
+      <workItem from="1693823976696" duration="15916000" />
+      <workItem from="1693986583514" duration="1944000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1690444865290</created>
@@ -441,7 +441,21 @@
       <option name="project" value="LOCAL" />
       <updated>1693844223222</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="easy LL problem - Delete node without head pointer">
+      <created>1693845774425</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1693845774425</updated>
+    </task>
+    <task id="LOCAL-00042" summary="easy LL problem - Delete node from position of SLL">
+      <created>1693845798427</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1693845798427</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,8 +473,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="easy string problem - palindrome checker" />
-    <MESSAGE value="easy string problem - reverse words in given string" />
     <MESSAGE value="Singly Linked List Implemantation" />
     <MESSAGE value="Singly Linked List Implementation" />
     <MESSAGE value="easy SLL problem - detect loop" />
@@ -484,6 +496,8 @@
     <MESSAGE value="easy LL problem - Reverse a Linked list" />
     <MESSAGE value="easy LL problem - Remove duplicates from sorted LL" />
     <MESSAGE value="easy LL problem - (not complete, only idea) Remove duplicates from UNSORTED LL" />
-    <option name="LAST_COMMIT_MESSAGE" value="easy LL problem - (not complete, only idea) Remove duplicates from UNSORTED LL" />
+    <MESSAGE value="easy LL problem - Delete node without head pointer" />
+    <MESSAGE value="easy LL problem - Delete node from position of SLL" />
+    <option name="LAST_COMMIT_MESSAGE" value="easy LL problem - Delete node from position of SLL" />
   </component>
 </project>
