@@ -9,8 +9,8 @@ public class StackUsingTwoQueues {
     //Implement a Stack using two queues q1 and q2.
 
     class Queues {
-        Queue<Integer> q1 = new LinkedList<Integer>();
-        Queue<Integer> q2 = new LinkedList<Integer>();
+        Queue<Integer> q1 = new LinkedList<>();
+        Queue<Integer> q2 = new LinkedList<>();
 
 
         //Function to push an element into stack using two queues.
