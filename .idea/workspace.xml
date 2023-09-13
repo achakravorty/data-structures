@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="easy Stack problem - Deleting middle element of a stack">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Stack/DeleteMiddleElementOfStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tree/PostOrderTraversalBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +191,7 @@
       <workItem from="1693986583514" duration="5001000" />
       <workItem from="1694001064022" duration="3065000" />
       <workItem from="1694509916546" duration="4789000" />
-      <workItem from="1694601696124" duration="2319000" />
+      <workItem from="1694601696124" duration="3022000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1690444865290</created>
@@ -529,15 +529,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694002628525</updated>
     </task>
-    <task id="LOCAL-00049" summary="easy Array problem - First Negative integer in every window of size K">
+    <task id="LOCAL-00050" summary="easy Stack problem - Deleting middle element of a stack">
       <option name="closed" value="true" />
-      <created>1694515406527</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
+      <created>1694607587679</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
       <option name="project" value="LOCAL" />
-      <updated>1694515406527</updated>
+      <updated>1694607587679</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
