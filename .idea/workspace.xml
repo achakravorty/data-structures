@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="easy Tree problem - Mininum element in Binary Search Tree">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tree/LeftViewOfBinaryTree.java" afterDir="false" />
+    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="Explanation of Map Operations">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Map/HashMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Map/MapOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,26 +61,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "dev",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -91,7 +92,7 @@
       <recent name="Arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CyclicallyRotateByOneTest">
+  <component name="RunManager" selected="Application.HashMapExample">
     <configuration name="ArrayImplemenation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.ArrayImplemenation" />
       <module name="DataStructures" />
@@ -105,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EquilibriumPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.EquilibriumPoint" />
+    <configuration name="HashMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Map.HashMapExample" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="Map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashMapExample" />
         <item itemvalue="JUnit.CyclicallyRotateByOneTest" />
         <item itemvalue="Application.ArrayImplemenation" />
         <item itemvalue="Application.Stack.ImmediateSmallerElement" />
         <item itemvalue="Application.SecondLargestElement" />
-        <item itemvalue="Application.EquilibriumPoint" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +195,7 @@
       <workItem from="1694684742619" duration="836000" />
       <workItem from="1694793444279" duration="15000" />
       <workItem from="1694793470671" duration="4334000" />
+      <workItem from="1694933609885" duration="6418000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1690444865290</created>
@@ -531,15 +533,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694002628525</updated>
     </task>
-    <task id="LOCAL-00056" summary="easy Tree problem - Mininum element in Binary Search Tree">
+    <task id="LOCAL-00060" summary="Easy Tree problem - Level order traversal of Binary tree">
       <option name="closed" value="true" />
-      <created>1694797431369</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
+      <created>1694942223008</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
       <option name="project" value="LOCAL" />
-      <updated>1694797431369</updated>
+      <updated>1694942223008</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -557,11 +559,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="basic Stack problem - Stack Implementation using Linked list" />
-    <MESSAGE value="basic LL problem - Identical Linked Lists" />
-    <MESSAGE value="basic LL problem - Insert in Middle of LL" />
-    <MESSAGE value="basic LL problem - Delete from given position of DLL" />
-    <MESSAGE value="basic LL problem - Delete alternate nodes of LL" />
     <MESSAGE value="basic LL problem - find modular node of SLL" />
     <MESSAGE value="easy LL problem - find middle element of LL" />
     <MESSAGE value="easy LL problem - Reverse a Linked list" />
@@ -582,7 +579,12 @@
     <MESSAGE value="easy Tree problem - Sum of nodes of Binary Tree" />
     <MESSAGE value="easy Tree problem - Count non-leaf nodes in Binary tree" />
     <MESSAGE value="easy Tree problem - Mininum element in Binary Search Tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="easy Tree problem - Mininum element in Binary Search Tree" />
+    <MESSAGE value="easy Tree problem - Left View of Binary tree" />
+    <MESSAGE value="easy Tree problem - Height of Binary tree" />
+    <MESSAGE value="easy Tree problem - Level order traversal of Binary tree" />
+    <MESSAGE value="Easy Tree problem - Level order traversal of Binary tree" />
+    <MESSAGE value="Explanation of Map Operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Explanation of Map Operations" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
