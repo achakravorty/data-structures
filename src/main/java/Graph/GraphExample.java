@@ -6,8 +6,7 @@ public class GraphExample {
 
 
     //Representing a Directed Graph using Adjacency List//
-
-    class Graph {
+    static class Graph {
         private int V; // Number of vertices
         private LinkedList<Integer>[] adjList; // Array of linked lists to represent adjacency list
 
