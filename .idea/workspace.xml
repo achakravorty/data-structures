@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="Explanation of Map Operations">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_09_2023_15_59__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_09_2023_15_59__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_09_2023_16_01__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_09_2023_16_01__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="removed unnecesssary import">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/MaximumWeightNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +91,7 @@
       <recent name="Arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayImplemenation">
+  <component name="RunManager" selected="Application.MaximumWeightNode">
     <configuration name="ArrayImplemenation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.ArrayImplemenation" />
       <module name="DataStructures" />
@@ -122,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondLargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.SecondLargestElement" />
+    <configuration name="MaximumWeightNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.MaximumWeightNode" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="Graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumWeightNode" />
         <item itemvalue="Application.ArrayImplemenation" />
         <item itemvalue="Application.HashMapExample" />
         <item itemvalue="JUnit.CyclicallyRotateByOneTest" />
         <item itemvalue="Application.Stack.ImmediateSmallerElement" />
-        <item itemvalue="Application.SecondLargestElement" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +197,7 @@
       <workItem from="1694933609885" duration="6418000" />
       <workItem from="1694963437942" duration="132000" />
       <workItem from="1695120811380" duration="13000" />
-      <workItem from="1695120950622" duration="809000" />
+      <workItem from="1695120950622" duration="5813000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1690444865290</created>
@@ -539,15 +535,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694002628525</updated>
     </task>
-    <task id="LOCAL-00060" summary="Easy Tree problem - Level order traversal of Binary tree">
+    <task id="LOCAL-00063" summary="removed unnecesssary import">
       <option name="closed" value="true" />
-      <created>1694942223008</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
+      <created>1695125410177</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
       <option name="project" value="LOCAL" />
-      <updated>1694942223008</updated>
+      <updated>1695125410177</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -577,10 +573,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="basic LL problem - find modular node of SLL" />
-    <MESSAGE value="easy LL problem - find middle element of LL" />
-    <MESSAGE value="easy LL problem - Reverse a Linked list" />
-    <MESSAGE value="easy LL problem - Remove duplicates from sorted LL" />
     <MESSAGE value="easy LL problem - (not complete, only idea) Remove duplicates from UNSORTED LL" />
     <MESSAGE value="easy LL problem - Delete node without head pointer" />
     <MESSAGE value="easy LL problem - Delete node from position of SLL" />
@@ -601,8 +593,12 @@
     <MESSAGE value="easy Tree problem - Height of Binary tree" />
     <MESSAGE value="easy Tree problem - Level order traversal of Binary tree" />
     <MESSAGE value="Easy Tree problem - Level order traversal of Binary tree" />
+    <MESSAGE value="Merge pull request #1 from achakravorty/new_branch&#10;&#10;New branch" />
     <MESSAGE value="Explanation of Map Operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Explanation of Map Operations" />
+    <MESSAGE value="Changes in .idea folder" />
+    <MESSAGE value="basic Map problem - Sum of f(a[i], a[j]) over all pairs in an array of n integers" />
+    <MESSAGE value="removed unnecesssary import" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed unnecesssary import" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
