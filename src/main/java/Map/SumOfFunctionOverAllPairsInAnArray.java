@@ -1,6 +1,5 @@
 package Map;
 
-import java.lang.instrument.IllegalClassFormatException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -28,23 +27,24 @@ public class SumOfFunctionOverAllPairsInAnArray {
     /**
      * Function for calculating sum of f(a[i], a[j]) over all pairs
      * in an array.
+     *
      * @param arr given array
-     * @param n size of given array
+     * @param n   size of given array
      * @return return an integer denoting the sum of f(a[i], a[j])
      * of all pairs
      */
-    public static long sum (int arr[], int n) {
+    public static long sum(int[] arr, int n) {
         // Map to keep a count of occurrences
-        Map<Long, Long> count = new HashMap<Long, Long>();
+        Map<Long, Long> count = new HashMap<>();
 
-        long ans =0;
-        long pre_sum =0;
+        long ans = 0;
+        long pre_sum = 0;
 
         // Traverse in the list from start to end
         // number of times a[i] can be in a pair and
         // to get the difference we subtract pre_sum
-        for (int i =0; i < n; i++) {
-            ans += (i* (long) arr[i]) - pre_sum;
+        for (int i = 0; i < n; i++) {
+            ans += (i * (long) arr[i]) - pre_sum;
             pre_sum += arr[i];
 
             // If the (a[i]-1) is present then subtract
@@ -63,11 +63,10 @@ public class SumOfFunctionOverAllPairsInAnArray {
             }
 
             // keeping a counter for every element
-            if(count.containsKey((long) arr[i])) {
+            if (count.containsKey((long) arr[i])) {
                 count.put((long) arr[i],
                         count.get((long) arr[i]) + 1);
-            }
-            else {
+            } else {
                 count.put((long) arr[i], (long) 1);
             }
         }
@@ -100,7 +99,6 @@ public class SumOfFunctionOverAllPairsInAnArray {
         }
     }
      */
-
 
 
 }
