@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="refacetor Graph BFSTraversal">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/DFSTraversalWithStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/testDFS.java" afterDir="false" />
+    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="Graph problem (weblab) - Depth First Traversal (completed but not 100 spec test)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/weblab/DepthFirstTraversalGraph-Question.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/weblab/DepthFirstTraversalGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/weblab/ReachingForNodesBFS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Graph/DFSTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graph/DFSTraversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,26 +63,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "develop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -94,7 +95,7 @@
       <recent name="Arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.testDFS">
+  <component name="RunManager" selected="Application.DepthFirstTraversalGraph">
     <configuration name="ArrayImplemenation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.ArrayImplemenation" />
       <module name="DataStructures" />
@@ -121,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Map.HashMapExample" />
+    <configuration name="DepthFirstTraversalGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.weblab.DepthFirstTraversalGraph" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Map.*" />
+          <option name="PATTERN" value="Graph.weblab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DepthFirstTraversalGraph" />
         <item itemvalue="Application.testDFS" />
         <item itemvalue="Application.DFSTraversalWithStack" />
         <item itemvalue="Application.MaximumWeightNode" />
         <item itemvalue="Application.ArrayImplemenation" />
-        <item itemvalue="Application.HashMapExample" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +200,7 @@
       <workItem from="1694963437942" duration="132000" />
       <workItem from="1695120811380" duration="13000" />
       <workItem from="1695120950622" duration="6267000" />
-      <workItem from="1695190421087" duration="9452000" />
+      <workItem from="1695190421087" duration="16736000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1690444865290</created>
@@ -537,15 +538,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694002628525</updated>
     </task>
-    <task id="LOCAL-00065" summary="refacetor Graph BFSTraversal">
+    <task id="LOCAL-00066" summary="easy Graph problem - DFS Traversal iteratively with stack">
       <option name="closed" value="true" />
-      <created>1695200150527</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
+      <created>1695205624878</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
       <option name="project" value="LOCAL" />
-      <updated>1695200150528</updated>
+      <updated>1695205624878</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -575,8 +576,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="easy LL problem - Delete node from position of SLL" />
-    <MESSAGE value="basic Queue problem - Queue Implementation using Linked List" />
     <MESSAGE value="basic Queue problem - Queue reversal" />
     <MESSAGE value="basic stack problem - Stack designer" />
     <MESSAGE value="easy stack problem - Implementing two stacks in one array" />
@@ -600,7 +599,9 @@
     <MESSAGE value="removed unnecesssary import" />
     <MESSAGE value="easy Graph problem - Maximum Weighted Node" />
     <MESSAGE value="refacetor Graph BFSTraversal" />
-    <option name="LAST_COMMIT_MESSAGE" value="refacetor Graph BFSTraversal" />
+    <MESSAGE value="easy Graph problem - DFS Traversal iteratively with stack" />
+    <MESSAGE value="Graph problem (weblab) - Depth First Traversal (completed but not 100 spec test)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Graph problem (weblab) - Depth First Traversal (completed but not 100 spec test)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
