@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="Graph problem (weblab) - Depth First Traversal (completed but not 100 spec test)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/weblab/DepthFirstTraversalGraph-Question.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/weblab/DepthFirstTraversalGraph.java" afterDir="false" />
+    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="Graph problem (weblab) - Depth First Traversal (Fixed &amp; COMPLETED - 100/100)">
       <change afterPath="$PROJECT_DIR$/src/main/java/Graph/weblab/ReachingForNodesBFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/weblab/ReachingForNodesBFS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Graph/weblab/ReachingForNodesBFSTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -92,36 +92,11 @@
       <recent name="Arrays" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Graph.weblab" />
       <recent name="Arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DepthFirstTraversalGraph">
-    <configuration name="ArrayImplemenation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.ArrayImplemenation" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DFSTraversalWithStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph.DFSTraversalWithStack" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Graph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ReachingForNodesBFSTest">
     <configuration name="DepthFirstTraversalGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Graph.weblab.DepthFirstTraversalGraph" />
       <module name="DataStructures" />
@@ -135,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumWeightNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph.MaximumWeightNode" />
+    <configuration name="ReachingForNodesBFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.weblab.ReachingForNodesBFS" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Graph.*" />
+          <option name="PATTERN" value="Graph.weblab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,13 +136,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReachingForNodesBFSTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graph.weblab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Graph.weblab" />
+      <option name="MAIN_CLASS_NAME" value="Graph.weblab.ReachingForNodesBFSTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReachingForNodesBFSTest.testWeighted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graph.weblab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Graph.weblab" />
+      <option name="MAIN_CLASS_NAME" value="Graph.weblab.ReachingForNodesBFSTest" />
+      <option name="METHOD_NAME" value="testWeighted" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReachingForNodesBFSTest" />
+        <item itemvalue="JUnit.ReachingForNodesBFSTest.testWeighted" />
+        <item itemvalue="Application.ReachingForNodesBFS" />
         <item itemvalue="Application.DepthFirstTraversalGraph" />
         <item itemvalue="Application.testDFS" />
-        <item itemvalue="Application.DFSTraversalWithStack" />
-        <item itemvalue="Application.MaximumWeightNode" />
-        <item itemvalue="Application.ArrayImplemenation" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +206,7 @@
       <workItem from="1694963437942" duration="132000" />
       <workItem from="1695120811380" duration="13000" />
       <workItem from="1695120950622" duration="6267000" />
-      <workItem from="1695190421087" duration="16736000" />
+      <workItem from="1695190421087" duration="19011000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1690444865290</created>
@@ -538,15 +544,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694002628525</updated>
     </task>
-    <task id="LOCAL-00066" summary="easy Graph problem - DFS Traversal iteratively with stack">
+    <task id="LOCAL-00068" summary="Graph problem (weblab) - Depth First Traversal (Fixed &amp; COMPLETED - 100/100)">
       <option name="closed" value="true" />
-      <created>1695205624878</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
+      <created>1695229476290</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
       <option name="project" value="LOCAL" />
-      <updated>1695205624878</updated>
+      <updated>1695229476290</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -576,7 +582,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="basic Queue problem - Queue reversal" />
     <MESSAGE value="basic stack problem - Stack designer" />
     <MESSAGE value="easy stack problem - Implementing two stacks in one array" />
     <MESSAGE value="easy Stack problem - Implementing stack with two queues" />
@@ -601,7 +606,8 @@
     <MESSAGE value="refacetor Graph BFSTraversal" />
     <MESSAGE value="easy Graph problem - DFS Traversal iteratively with stack" />
     <MESSAGE value="Graph problem (weblab) - Depth First Traversal (completed but not 100 spec test)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Graph problem (weblab) - Depth First Traversal (completed but not 100 spec test)" />
+    <MESSAGE value="Graph problem (weblab) - Depth First Traversal (Fixed &amp; COMPLETED - 100/100)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Graph problem (weblab) - Depth First Traversal (Fixed &amp; COMPLETED - 100/100)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
