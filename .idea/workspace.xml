@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="removed unnecesssary import">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/MaximumWeightNode.java" afterDir="false" />
+    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="easy Graph problem - Maximum Weighted Node">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +197,8 @@
       <workItem from="1694933609885" duration="6418000" />
       <workItem from="1694963437942" duration="132000" />
       <workItem from="1695120811380" duration="13000" />
-      <workItem from="1695120950622" duration="5813000" />
+      <workItem from="1695120950622" duration="6267000" />
+      <workItem from="1695190421087" duration="3810000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1690444865290</created>
@@ -535,15 +536,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694002628525</updated>
     </task>
-    <task id="LOCAL-00063" summary="removed unnecesssary import">
+    <task id="LOCAL-00064" summary="easy Graph problem - Maximum Weighted Node">
       <option name="closed" value="true" />
-      <created>1695125410177</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
+      <created>1695127277390</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
       <option name="project" value="LOCAL" />
-      <updated>1695125410177</updated>
+      <updated>1695127277390</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,7 +574,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="easy LL problem - (not complete, only idea) Remove duplicates from UNSORTED LL" />
     <MESSAGE value="easy LL problem - Delete node without head pointer" />
     <MESSAGE value="easy LL problem - Delete node from position of SLL" />
     <MESSAGE value="basic Queue problem - Queue Implementation using Linked List" />
@@ -598,7 +598,8 @@
     <MESSAGE value="Changes in .idea folder" />
     <MESSAGE value="basic Map problem - Sum of f(a[i], a[j]) over all pairs in an array of n integers" />
     <MESSAGE value="removed unnecesssary import" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed unnecesssary import" />
+    <MESSAGE value="easy Graph problem - Maximum Weighted Node" />
+    <option name="LAST_COMMIT_MESSAGE" value="easy Graph problem - Maximum Weighted Node" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
