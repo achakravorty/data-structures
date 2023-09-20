@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="easy Graph problem - Maximum Weighted Node">
+    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="refacetor Graph BFSTraversal">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/DFSTraversalWithStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/testDFS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Graph/DFSTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graph/DFSTraversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,13 +94,26 @@
       <recent name="Arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaximumWeightNode">
+  <component name="RunManager" selected="Application.testDFS">
     <configuration name="ArrayImplemenation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.ArrayImplemenation" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DFSTraversalWithStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.DFSTraversalWithStack" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,41 +147,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stack.ImmediateSmallerElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.ImmediateSmallerElement" />
+    <configuration name="testDFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.testDFS" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="Graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CyclicallyRotateByOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Arrays" />
-      <option name="MAIN_CLASS_NAME" value="Arrays.CyclicallyRotateByOneTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.testDFS" />
+        <item itemvalue="Application.DFSTraversalWithStack" />
         <item itemvalue="Application.MaximumWeightNode" />
         <item itemvalue="Application.ArrayImplemenation" />
         <item itemvalue="Application.HashMapExample" />
-        <item itemvalue="JUnit.CyclicallyRotateByOneTest" />
-        <item itemvalue="Application.Stack.ImmediateSmallerElement" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +199,7 @@
       <workItem from="1694963437942" duration="132000" />
       <workItem from="1695120811380" duration="13000" />
       <workItem from="1695120950622" duration="6267000" />
-      <workItem from="1695190421087" duration="3810000" />
+      <workItem from="1695190421087" duration="9452000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1690444865290</created>
@@ -536,15 +537,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694002628525</updated>
     </task>
-    <task id="LOCAL-00064" summary="easy Graph problem - Maximum Weighted Node">
+    <task id="LOCAL-00065" summary="refacetor Graph BFSTraversal">
       <option name="closed" value="true" />
-      <created>1695127277390</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
+      <created>1695200150527</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
       <option name="project" value="LOCAL" />
-      <updated>1695127277390</updated>
+      <updated>1695200150528</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,7 +575,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="easy LL problem - Delete node without head pointer" />
     <MESSAGE value="easy LL problem - Delete node from position of SLL" />
     <MESSAGE value="basic Queue problem - Queue Implementation using Linked List" />
     <MESSAGE value="basic Queue problem - Queue reversal" />
@@ -599,7 +599,8 @@
     <MESSAGE value="basic Map problem - Sum of f(a[i], a[j]) over all pairs in an array of n integers" />
     <MESSAGE value="removed unnecesssary import" />
     <MESSAGE value="easy Graph problem - Maximum Weighted Node" />
-    <option name="LAST_COMMIT_MESSAGE" value="easy Graph problem - Maximum Weighted Node" />
+    <MESSAGE value="refacetor Graph BFSTraversal" />
+    <option name="LAST_COMMIT_MESSAGE" value="refacetor Graph BFSTraversal" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
