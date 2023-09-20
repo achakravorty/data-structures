@@ -24,18 +24,18 @@ public class DepthFirstTraversalGraph {
 
         public GraphIterator(Graph g, Vertex v) {
 
-            if (g == null || v == null) {
-                throw new IllegalArgumentException("Graph and starting vertex must not be null");
-            }
+//            if (g == null || v == null) {
+//                throw new IllegalArgumentException("Graph and starting vertex must not be null");
+//            }
 
             this.g = g;
             this.v = v;
             this.stack = new Stack<>();
             this.colored = new TreeSet<>();
-            this.graphSize = 0;
+            this.graphSize = g.getAllVertices().size();
 
             stack.push(v);
-//            colored.add(v);
+            colored.add(v);
         }
 
         @Override
@@ -49,9 +49,10 @@ public class DepthFirstTraversalGraph {
 
             Vertex current = stack.pop();
 
-            if (!colored.contains(current)) {
-                colored.add(current);
-            }
+            //why is it wrong to add this??? it gives the same solution
+            // if (!colored.contains(current)) {
+            //     colored.add(current);
+            // }
 
             //you need to push into the stack from the end to get
             //DFS from left to right
@@ -60,16 +61,9 @@ public class DepthFirstTraversalGraph {
                 Vertex n = neighbours.get(i);
                 if (!colored.contains(n)) {
                     stack.push(n);
-//                    colored.add(n);
+                    colored.add(n);
                 }
             }
-
-//            for (Vertex n : g.getNeighbours(v)) {
-//                if (!colored.contains(n)) {
-//                    stack. push(n);
-//                }
-//            }
-            graphSize++;
             return current;
         }
     }
