@@ -22,3 +22,56 @@ Example Output: false
 * There is a cycle in this graph, but it is not reachable from 
   node 0. Therefore, we return false.
 
+```
+//SOLUTION//
+
+import java.util.*;
+
+class Solution {
+
+    /**
+     * Detects cycles in a connected component.
+     *
+     * @param s starting vertex in our connected component.
+     * @param vertices the vertex that belong to our graph.
+     * @return true iff there is a cycle in the connected component the source belongs to.
+     */
+    public static boolean detectCycle(Vertex s, List<Vertex> vertices) {
+        //TODO
+    }
+}
+```
+
+```
+//LIBRARY//
+
+class Vertex {
+
+    List<Vertex> outgoingEdges;
+
+    int id;
+
+    public Vertex(int id) {
+        this.outgoingEdges = new ArrayList<>();
+        this.id = id;
+    }
+
+    public List<Vertex> getOutgoingEdges() {
+        return outgoingEdges;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String toString() {
+        return Integer.toString(id);
+    }
+
+    @Override
+    public int hashCode() {
+        return id;
+    }
+}
+```
+
