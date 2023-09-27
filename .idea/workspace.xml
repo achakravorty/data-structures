@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="Explanation of Map Operations">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Map/HashMapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Map/MapOperations.java" afterDir="false" />
+    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="Graph problem (weblab) - Reaching for Nodes with BFS (COMPLETED - 100/100)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/weblab/CyclesInDirectedGraphDFS-Question.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/weblab/CyclesInDirectedGraphDFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/weblab/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/weblab/img_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,11 +73,12 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "dev",
+    "git-widget-placeholder": "develop",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "SDKs",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.sourceCode.Java",
@@ -89,16 +93,17 @@
       <recent name="Arrays" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Graph.weblab" />
       <recent name="Arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashMapExample">
-    <configuration name="ArrayImplemenation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.ArrayImplemenation" />
+  <component name="RunManager" selected="JUnit.ReachingForNodesBFSTest">
+    <configuration name="DepthFirstTraversalGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.weblab.DepthFirstTraversalGraph" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="Graph.weblab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Map.HashMapExample" />
+    <configuration name="ReachingForNodesBFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.weblab.ReachingForNodesBFS" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Map.*" />
+          <option name="PATTERN" value="Graph.weblab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondLargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.SecondLargestElement" />
+    <configuration name="testDFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.testDFS" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="Graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,41 +137,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stack.ImmediateSmallerElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.ImmediateSmallerElement" />
+    <configuration name="ReachingForNodesBFSTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="Graph.weblab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CyclicallyRotateByOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Arrays" />
-      <option name="MAIN_CLASS_NAME" value="Arrays.CyclicallyRotateByOneTest" />
+      <option name="PACKAGE_NAME" value="Graph.weblab" />
+      <option name="MAIN_CLASS_NAME" value="Graph.weblab.ReachingForNodesBFSTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReachingForNodesBFSTest.testWeighted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graph.weblab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Graph.weblab" />
+      <option name="MAIN_CLASS_NAME" value="Graph.weblab.ReachingForNodesBFSTest" />
+      <option name="METHOD_NAME" value="testWeighted" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HashMapExample" />
-        <item itemvalue="JUnit.CyclicallyRotateByOneTest" />
-        <item itemvalue="Application.ArrayImplemenation" />
-        <item itemvalue="Application.Stack.ImmediateSmallerElement" />
-        <item itemvalue="Application.SecondLargestElement" />
+        <item itemvalue="JUnit.ReachingForNodesBFSTest" />
+        <item itemvalue="JUnit.ReachingForNodesBFSTest.testWeighted" />
+        <item itemvalue="Application.ReachingForNodesBFS" />
+        <item itemvalue="Application.DepthFirstTraversalGraph" />
+        <item itemvalue="Application.testDFS" />
       </list>
     </recent_temporary>
   </component>
@@ -196,6 +204,10 @@
       <workItem from="1694793444279" duration="15000" />
       <workItem from="1694793470671" duration="4334000" />
       <workItem from="1694933609885" duration="6418000" />
+      <workItem from="1694963437942" duration="132000" />
+      <workItem from="1695120811380" duration="13000" />
+      <workItem from="1695120950622" duration="6267000" />
+      <workItem from="1695190421087" duration="20616000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1690444865290</created>
@@ -533,15 +545,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694002628525</updated>
     </task>
-    <task id="LOCAL-00060" summary="Easy Tree problem - Level order traversal of Binary tree">
+    <task id="LOCAL-00069" summary="Graph problem (weblab) - Reaching for Nodes with BFS (COMPLETED - 100/100)">
       <option name="closed" value="true" />
-      <created>1694942223008</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
+      <created>1695231527470</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
       <option name="project" value="LOCAL" />
-      <updated>1694942223008</updated>
+      <updated>1695231527471</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,23 +564,25 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="develop" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="basic LL problem - find modular node of SLL" />
-    <MESSAGE value="easy LL problem - find middle element of LL" />
-    <MESSAGE value="easy LL problem - Reverse a Linked list" />
-    <MESSAGE value="easy LL problem - Remove duplicates from sorted LL" />
-    <MESSAGE value="easy LL problem - (not complete, only idea) Remove duplicates from UNSORTED LL" />
-    <MESSAGE value="easy LL problem - Delete node without head pointer" />
-    <MESSAGE value="easy LL problem - Delete node from position of SLL" />
-    <MESSAGE value="basic Queue problem - Queue Implementation using Linked List" />
-    <MESSAGE value="basic Queue problem - Queue reversal" />
-    <MESSAGE value="basic stack problem - Stack designer" />
     <MESSAGE value="easy stack problem - Implementing two stacks in one array" />
     <MESSAGE value="easy Stack problem - Implementing stack with two queues" />
     <MESSAGE value="easy Array problem - First Negative integer in every window of size K" />
@@ -583,8 +597,18 @@
     <MESSAGE value="easy Tree problem - Height of Binary tree" />
     <MESSAGE value="easy Tree problem - Level order traversal of Binary tree" />
     <MESSAGE value="Easy Tree problem - Level order traversal of Binary tree" />
+    <MESSAGE value="Merge pull request #1 from achakravorty/new_branch&#10;&#10;New branch" />
     <MESSAGE value="Explanation of Map Operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Explanation of Map Operations" />
+    <MESSAGE value="Changes in .idea folder" />
+    <MESSAGE value="basic Map problem - Sum of f(a[i], a[j]) over all pairs in an array of n integers" />
+    <MESSAGE value="removed unnecesssary import" />
+    <MESSAGE value="easy Graph problem - Maximum Weighted Node" />
+    <MESSAGE value="refacetor Graph BFSTraversal" />
+    <MESSAGE value="easy Graph problem - DFS Traversal iteratively with stack" />
+    <MESSAGE value="Graph problem (weblab) - Depth First Traversal (completed but not 100 spec test)" />
+    <MESSAGE value="Graph problem (weblab) - Depth First Traversal (Fixed &amp; COMPLETED - 100/100)" />
+    <MESSAGE value="Graph problem (weblab) - Reaching for Nodes with BFS (COMPLETED - 100/100)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Graph problem (weblab) - Reaching for Nodes with BFS (COMPLETED - 100/100)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

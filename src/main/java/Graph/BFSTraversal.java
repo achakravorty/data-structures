@@ -37,12 +37,12 @@ public class BFSTraversal {
         while (!q.isEmpty()) {
 
             int p = q.remove();
-            list.add(p);
+            list.add(p); //visit action
 
             for (int neighbor : adj.get(p)) {
                 if (!visited.contains(neighbor)) {
-                    visited.add(neighbor);
                     q.add(neighbor);
+                    visited.add(neighbor);
                 }
             }
         }

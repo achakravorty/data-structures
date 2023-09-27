@@ -6,6 +6,7 @@ import java.util.HashSet;
 public class DFSTraversal {
 
     //GFG//
+    //RECURSIVE SOL//
     ///You are given a connected undirected graph. Perform a Depth
     //First Traversal of the graph.
     //Note: Use the recursive approach to find the DFS traversal of
