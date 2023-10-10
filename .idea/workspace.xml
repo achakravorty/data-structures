@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="Graph problem (weblab) - Connected Components DFS (COMPLETED 100/100)">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_09_2023_16_01__Changes_.xml" beforeDir="false" />
+    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="Graph problem (tutorial weblab) - Check if graph is a DAG (COMPLETED 100/100)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/weblab/IsItaDAG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +32,10 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -202,6 +203,8 @@
       <workItem from="1695120811380" duration="13000" />
       <workItem from="1695120950622" duration="6267000" />
       <workItem from="1695190421087" duration="20616000" />
+      <workItem from="1695826611292" duration="2280000" />
+      <workItem from="1696518201192" duration="348000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1690444865290</created>
@@ -539,15 +542,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694002628525</updated>
     </task>
-    <task id="LOCAL-00069" summary="Graph problem (weblab) - Reaching for Nodes with BFS (COMPLETED - 100/100)">
+    <task id="LOCAL-00070" summary="Graph problem (tutorial weblab) - Check if vertex in the grapggh is part of a cycle (COMPLETED 100/100)">
       <option name="closed" value="true" />
-      <created>1695231527470</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
+      <created>1695826998240</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
       <option name="project" value="LOCAL" />
-      <updated>1695231527471</updated>
+      <updated>1695826998240</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -577,8 +580,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="easy stack problem - Implementing two stacks in one array" />
-    <MESSAGE value="easy Stack problem - Implementing stack with two queues" />
     <MESSAGE value="easy Array problem - First Negative integer in every window of size K" />
     <MESSAGE value="easy Stack problem - Deleting middle element of a stack" />
     <MESSAGE value="easy Tree problem - Post Order traversal of Binary tree (with recursion)" />
@@ -602,7 +603,9 @@
     <MESSAGE value="Graph problem (weblab) - Depth First Traversal (completed but not 100 spec test)" />
     <MESSAGE value="Graph problem (weblab) - Depth First Traversal (Fixed &amp; COMPLETED - 100/100)" />
     <MESSAGE value="Graph problem (weblab) - Reaching for Nodes with BFS (COMPLETED - 100/100)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Graph problem (weblab) - Reaching for Nodes with BFS (COMPLETED - 100/100)" />
+    <MESSAGE value="Graph problem (tutorial weblab) - Check if vertex in the grapggh is part of a cycle (COMPLETED 100/100)" />
+    <MESSAGE value="Graph problem (tutorial weblab) - Check if graph is a DAG (COMPLETED 100/100)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Graph problem (tutorial weblab) - Check if graph is a DAG (COMPLETED 100/100)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
