@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="Graph problem (tutorial weblab) - Check if graph is a DAG (COMPLETED 100/100)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/weblab/IsItaDAG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,6 +208,7 @@
       <workItem from="1695190421087" duration="20616000" />
       <workItem from="1695826611292" duration="2280000" />
       <workItem from="1696518201192" duration="348000" />
+      <workItem from="1696928348747" duration="1589000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1690444865290</created>
@@ -542,15 +546,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694002628525</updated>
     </task>
-    <task id="LOCAL-00070" summary="Graph problem (tutorial weblab) - Check if vertex in the grapggh is part of a cycle (COMPLETED 100/100)">
+    <task id="LOCAL-00071" summary="Graph problem (tutorial weblab) - Check if graph is a DAG (COMPLETED 100/100)">
       <option name="closed" value="true" />
-      <created>1695826998240</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
+      <created>1696928501704</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
       <option name="project" value="LOCAL" />
-      <updated>1695826998240</updated>
+      <updated>1696928501705</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
