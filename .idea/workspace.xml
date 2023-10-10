@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="Graph problem (weblab) - Reaching for Nodes with BFS (COMPLETED - 100/100)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/weblab/CyclesInDirectedGraphDFS-Question.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/weblab/CyclesInDirectedGraphDFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/weblab/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/weblab/img_1.png" afterDir="false" />
+    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="Graph problem (tutorial weblab) - Check if graph is a DAG (COMPLETED 100/100)">
+      <change afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +37,6 @@
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;achakravorty&quot;
   }
 }</component>
   <component name="GithubPullRequestsUISettings">
@@ -64,27 +62,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "develop",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -170,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ReachingForNodesBFSTest" />
         <item itemvalue="JUnit.ReachingForNodesBFSTest.testWeighted" />
+        <item itemvalue="JUnit.ReachingForNodesBFSTest" />
+        <item itemvalue="Application.testDFS" />
         <item itemvalue="Application.ReachingForNodesBFS" />
         <item itemvalue="Application.DepthFirstTraversalGraph" />
-        <item itemvalue="Application.testDFS" />
       </list>
     </recent_temporary>
   </component>
@@ -208,6 +206,9 @@
       <workItem from="1695120811380" duration="13000" />
       <workItem from="1695120950622" duration="6267000" />
       <workItem from="1695190421087" duration="20616000" />
+      <workItem from="1695826611292" duration="2280000" />
+      <workItem from="1696518201192" duration="348000" />
+      <workItem from="1696928348747" duration="1589000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1690444865290</created>
@@ -545,15 +546,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694002628525</updated>
     </task>
-    <task id="LOCAL-00069" summary="Graph problem (weblab) - Reaching for Nodes with BFS (COMPLETED - 100/100)">
+    <task id="LOCAL-00071" summary="Graph problem (tutorial weblab) - Check if graph is a DAG (COMPLETED 100/100)">
       <option name="closed" value="true" />
-      <created>1695231527470</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
+      <created>1696928501704</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
       <option name="project" value="LOCAL" />
-      <updated>1695231527471</updated>
+      <updated>1696928501705</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,8 +584,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="easy stack problem - Implementing two stacks in one array" />
-    <MESSAGE value="easy Stack problem - Implementing stack with two queues" />
     <MESSAGE value="easy Array problem - First Negative integer in every window of size K" />
     <MESSAGE value="easy Stack problem - Deleting middle element of a stack" />
     <MESSAGE value="easy Tree problem - Post Order traversal of Binary tree (with recursion)" />
@@ -608,7 +607,9 @@
     <MESSAGE value="Graph problem (weblab) - Depth First Traversal (completed but not 100 spec test)" />
     <MESSAGE value="Graph problem (weblab) - Depth First Traversal (Fixed &amp; COMPLETED - 100/100)" />
     <MESSAGE value="Graph problem (weblab) - Reaching for Nodes with BFS (COMPLETED - 100/100)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Graph problem (weblab) - Reaching for Nodes with BFS (COMPLETED - 100/100)" />
+    <MESSAGE value="Graph problem (tutorial weblab) - Check if vertex in the grapggh is part of a cycle (COMPLETED 100/100)" />
+    <MESSAGE value="Graph problem (tutorial weblab) - Check if graph is a DAG (COMPLETED 100/100)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Graph problem (tutorial weblab) - Check if graph is a DAG (COMPLETED 100/100)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
