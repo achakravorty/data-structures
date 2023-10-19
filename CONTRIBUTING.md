@@ -66,7 +66,7 @@ Join our community on [platform/link] to discuss ideas, ask questions, and conne
 -->
 ## License
 
-By contributing to [Project Name], you agree that your 
+By contributing to DataStructures, you agree that your 
 contributions will be licensed under the [LICENSE](LICENSE) file of 
 the project.
 
