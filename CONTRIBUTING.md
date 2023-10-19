@@ -45,7 +45,7 @@ We welcome code contributions from the community! To contribute code:
 
 ## Setting Up a Development Environment
 
-If you're interested in setting up a development environment for the project, you can find detailed instructions in the [README.md](README.md) file.
+If you're interested in setting up a development environment for the project, you can find detailed instructions in the [README](README.md) file.
 
 ## Submitting a Pull Request
 
@@ -67,7 +67,7 @@ Join our community on [platform/link] to discuss ideas, ask questions, and conne
 ## License
 
 By contributing to [Project Name], you agree that your 
-contributions will be licensed under the [LICENSE](LICENSE.md) file of 
+contributions will be licensed under the [LICENSE](LICENSE) file of 
 the project.
 
 ---
