@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="Graph problem (tutorial weblab) - Transform a graph from adjacency matrix to adjacency map and vice versa (COMPLETED 100/100)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/PrintAdjacencyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="Graph problem - print adjacency list of given graph">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/CountThePaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/TopologicalSortWithInDegree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/TopologicalSorting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,9 +94,9 @@
       <recent name="Arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReachingForNodesBFSTest">
-    <configuration name="DepthFirstTraversalGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph.weblab.DepthFirstTraversalGraph" />
+  <component name="RunManager" selected="Application.TopologicalSorting">
+    <configuration name="ReachingForNodesBFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.weblab.ReachingForNodesBFS" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -107,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReachingForNodesBFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph.weblab.ReachingForNodesBFS" />
+    <configuration name="TopologicalSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.TopologicalSorting" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Graph.weblab.*" />
+          <option name="PATTERN" value="Graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TopologicalSorting" />
         <item itemvalue="JUnit.ReachingForNodesBFSTest.testWeighted" />
         <item itemvalue="JUnit.ReachingForNodesBFSTest" />
         <item itemvalue="Application.testDFS" />
         <item itemvalue="Application.ReachingForNodesBFS" />
-        <item itemvalue="Application.DepthFirstTraversalGraph" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +212,7 @@
       <workItem from="1697535625227" duration="4340000" />
       <workItem from="1698228122058" duration="1797000" />
       <workItem from="1698398232186" duration="605000" />
-      <workItem from="1698746313422" duration="1099000" />
+      <workItem from="1698746313422" duration="5351000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1690444865290</created>
@@ -549,15 +550,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694002628525</updated>
     </task>
-    <task id="LOCAL-00073" summary="Graph problem (tutorial weblab) - Transform a graph from adjacency matrix to adjacency map and vice versa (COMPLETED 100/100)">
+    <task id="LOCAL-00074" summary="Graph problem - print adjacency list of given graph">
       <option name="closed" value="true" />
-      <created>1697568663174</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
+      <created>1698747705625</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
       <option name="project" value="LOCAL" />
-      <updated>1697568663174</updated>
+      <updated>1698747705625</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,7 +588,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="easy Tree problem - Post Order traversal of Binary tree (with recursion)" />
     <MESSAGE value="easy Tree problem - Count Leaves in Binary tree" />
     <MESSAGE value="easy Tree problem - Size of Binary Tree" />
     <MESSAGE value="easy Tree problem - Sum of nodes of Binary Tree" />
@@ -612,7 +612,8 @@
     <MESSAGE value="Graph problem (tutorial weblab) - Check if graph is a DAG (COMPLETED 100/100)" />
     <MESSAGE value="doc: added a clear README file and related documentation for repo" />
     <MESSAGE value="Graph problem (tutorial weblab) - Transform a graph from adjacency matrix to adjacency map and vice versa (COMPLETED 100/100)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Graph problem (tutorial weblab) - Transform a graph from adjacency matrix to adjacency map and vice versa (COMPLETED 100/100)" />
+    <MESSAGE value="Graph problem - print adjacency list of given graph" />
+    <option name="LAST_COMMIT_MESSAGE" value="Graph problem - print adjacency list of given graph" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
