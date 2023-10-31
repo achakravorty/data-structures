@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="doc: added a clear README file and related documentation for repo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/weblab/AdjacencyMatrixAndAdjacencyMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/weblab/AdjacencyMatrixAndAdjacencyMap.md" afterDir="false" />
+    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="Graph problem (tutorial weblab) - Transform a graph from adjacency matrix to adjacency map and vice versa (COMPLETED 100/100)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/PrintAdjacencyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -208,7 +208,10 @@
       <workItem from="1696518201192" duration="348000" />
       <workItem from="1696928348747" duration="2876000" />
       <workItem from="1697141410563" duration="704000" />
-      <workItem from="1697535625227" duration="4047000" />
+      <workItem from="1697535625227" duration="4340000" />
+      <workItem from="1698228122058" duration="1797000" />
+      <workItem from="1698398232186" duration="605000" />
+      <workItem from="1698746313422" duration="1099000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1690444865290</created>
@@ -546,15 +549,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694002628525</updated>
     </task>
-    <task id="LOCAL-00072" summary="doc: added a clear README file and related documentation for repo">
+    <task id="LOCAL-00073" summary="Graph problem (tutorial weblab) - Transform a graph from adjacency matrix to adjacency map and vice versa (COMPLETED 100/100)">
       <option name="closed" value="true" />
-      <created>1696930173389</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
+      <created>1697568663174</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
       <option name="project" value="LOCAL" />
-      <updated>1696930173389</updated>
+      <updated>1697568663174</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -584,7 +587,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="easy Stack problem - Deleting middle element of a stack" />
     <MESSAGE value="easy Tree problem - Post Order traversal of Binary tree (with recursion)" />
     <MESSAGE value="easy Tree problem - Count Leaves in Binary tree" />
     <MESSAGE value="easy Tree problem - Size of Binary Tree" />
@@ -609,7 +611,8 @@
     <MESSAGE value="Graph problem (tutorial weblab) - Check if vertex in the grapggh is part of a cycle (COMPLETED 100/100)" />
     <MESSAGE value="Graph problem (tutorial weblab) - Check if graph is a DAG (COMPLETED 100/100)" />
     <MESSAGE value="doc: added a clear README file and related documentation for repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="doc: added a clear README file and related documentation for repo" />
+    <MESSAGE value="Graph problem (tutorial weblab) - Transform a graph from adjacency matrix to adjacency map and vice versa (COMPLETED 100/100)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Graph problem (tutorial weblab) - Transform a graph from adjacency matrix to adjacency map and vice versa (COMPLETED 100/100)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
