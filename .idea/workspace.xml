@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="Graph problem - topological sorting with in degree (fixed)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/weblab/ShortestPathDijkstra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/weblab/ShortestPathDijkstra.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Graph/weblab/ShortestPathDijkstraTest.java" afterDir="false" />
+    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="Graph problem (weblab) - Kruksal's algorithm for MST (COMPLETE 100/100)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/KruksalsMSTAlgo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/weblab/KruksalsAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/weblab/KruksalsAlgorithm.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/weblab/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/weblab/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Graph/weblab/KruksalsAlgorithmTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -94,9 +97,9 @@
       <recent name="Arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ShortestPathDijkstraTest.testUnweighted">
-    <configuration name="TopologicalSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph.TopologicalSorting" />
+  <component name="RunManager" selected="Application.KruksalsMSTAlgo">
+    <configuration name="KruksalsMSTAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.KruksalsMSTAlgo" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -108,7 +111,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReachingForNodesBFSTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KruksalsAlgorithmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -117,13 +120,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Graph.weblab" />
-      <option name="MAIN_CLASS_NAME" value="Graph.weblab.ReachingForNodesBFSTest" />
+      <option name="MAIN_CLASS_NAME" value="Graph.weblab.KruksalsAlgorithmTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReachingForNodesBFSTest.testWeighted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KruksalsAlgorithmTest.assertMST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -132,14 +135,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Graph.weblab" />
-      <option name="MAIN_CLASS_NAME" value="Graph.weblab.ReachingForNodesBFSTest" />
-      <option name="METHOD_NAME" value="testWeighted" />
+      <option name="MAIN_CLASS_NAME" value="Graph.weblab.KruksalsAlgorithmTest" />
+      <option name="METHOD_NAME" value="assertMST(int,java.util.List,int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestPathDijkstraTest.testUnweighted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KruksalsAlgorithmTest.completeGraphTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -148,14 +151,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Graph.weblab" />
-      <option name="MAIN_CLASS_NAME" value="Graph.weblab.ShortestPathDijkstraTest" />
-      <option name="METHOD_NAME" value="testUnweighted" />
+      <option name="MAIN_CLASS_NAME" value="Graph.weblab.KruksalsAlgorithmTest" />
+      <option name="METHOD_NAME" value="completeGraphTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestPathDijkstraTest.testUnweightedLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KruksalsAlgorithmTest.emptyGraphTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -164,8 +167,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Graph.weblab" />
-      <option name="MAIN_CLASS_NAME" value="Graph.weblab.ShortestPathDijkstraTest" />
-      <option name="METHOD_NAME" value="testUnweightedLine" />
+      <option name="MAIN_CLASS_NAME" value="Graph.weblab.KruksalsAlgorithmTest" />
+      <option name="METHOD_NAME" value="emptyGraphTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ShortestPathDijkstraTest.testUnweighted" />
-        <item itemvalue="JUnit.ShortestPathDijkstraTest.testUnweightedLine" />
-        <item itemvalue="Application.TopologicalSorting" />
-        <item itemvalue="JUnit.ReachingForNodesBFSTest.testWeighted" />
-        <item itemvalue="JUnit.ReachingForNodesBFSTest" />
+        <item itemvalue="Application.KruksalsMSTAlgo" />
+        <item itemvalue="JUnit.KruksalsAlgorithmTest.completeGraphTest" />
+        <item itemvalue="JUnit.KruksalsAlgorithmTest.emptyGraphTest" />
+        <item itemvalue="JUnit.KruksalsAlgorithmTest" />
+        <item itemvalue="JUnit.KruksalsAlgorithmTest.assertMST" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +222,7 @@
       <workItem from="1698228122058" duration="1797000" />
       <workItem from="1698398232186" duration="605000" />
       <workItem from="1698746313422" duration="9802000" />
-      <workItem from="1698914090329" duration="6738000" />
+      <workItem from="1698914090329" duration="13929000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1690444865290</created>
@@ -557,15 +560,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694002628525</updated>
     </task>
-    <task id="LOCAL-00077" summary="Graph problem - topological sorting with in degree (fixed)">
+    <task id="LOCAL-00078" summary="Graph problem (weblab) - shortest path problem using dijkstra's algorithm (INCOMPLETE 5/6)">
       <option name="closed" value="true" />
-      <created>1698921480312</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
+      <created>1698923701498</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
       <option name="project" value="LOCAL" />
-      <updated>1698921480312</updated>
+      <updated>1698923701498</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,8 +598,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="easy Tree problem - Count non-leaf nodes in Binary tree" />
-    <MESSAGE value="easy Tree problem - Mininum element in Binary Search Tree" />
     <MESSAGE value="easy Tree problem - Left View of Binary tree" />
     <MESSAGE value="easy Tree problem - Height of Binary tree" />
     <MESSAGE value="easy Tree problem - Level order traversal of Binary tree" />
@@ -620,7 +621,9 @@
     <MESSAGE value="Graph problem - topological sorting techniques of DAGs" />
     <MESSAGE value="Graph problem - count possible paths from given edges in a graph (INCOMPLETE)" />
     <MESSAGE value="Graph problem - topological sorting with in degree (fixed)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Graph problem - topological sorting with in degree (fixed)" />
+    <MESSAGE value="Graph problem (weblab) - shortest path problem using dijkstra's algorithm (INCOMPLETE 5/6)" />
+    <MESSAGE value="Graph problem (weblab) - Kruksal's algorithm for MST (COMPLETE 100/100)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Graph problem (weblab) - Kruksal's algorithm for MST (COMPLETE 100/100)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
