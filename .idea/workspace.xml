@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="Graph problem - print adjacency list of given graph">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/CountThePaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/TopologicalSortWithInDegree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/TopologicalSorting.java" afterDir="false" />
+    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="Graph problem - topological sorting with in degree (fixed)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/weblab/ShortestPathDijkstra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/weblab/ShortestPathDijkstra.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Graph/weblab/ShortestPathDijkstraTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -94,35 +94,9 @@
       <recent name="Arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TopologicalSorting">
-    <configuration name="ReachingForNodesBFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph.weblab.ReachingForNodesBFS" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Graph.weblab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ShortestPathDijkstraTest.testUnweighted">
     <configuration name="TopologicalSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Graph.TopologicalSorting" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Graph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testDFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph.testDFS" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -165,13 +139,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShortestPathDijkstraTest.testUnweighted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graph.weblab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Graph.weblab" />
+      <option name="MAIN_CLASS_NAME" value="Graph.weblab.ShortestPathDijkstraTest" />
+      <option name="METHOD_NAME" value="testUnweighted" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShortestPathDijkstraTest.testUnweightedLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graph.weblab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Graph.weblab" />
+      <option name="MAIN_CLASS_NAME" value="Graph.weblab.ShortestPathDijkstraTest" />
+      <option name="METHOD_NAME" value="testUnweightedLine" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShortestPathDijkstraTest.testUnweighted" />
+        <item itemvalue="JUnit.ShortestPathDijkstraTest.testUnweightedLine" />
         <item itemvalue="Application.TopologicalSorting" />
         <item itemvalue="JUnit.ReachingForNodesBFSTest.testWeighted" />
         <item itemvalue="JUnit.ReachingForNodesBFSTest" />
-        <item itemvalue="Application.testDFS" />
-        <item itemvalue="Application.ReachingForNodesBFS" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +218,8 @@
       <workItem from="1697535625227" duration="4340000" />
       <workItem from="1698228122058" duration="1797000" />
       <workItem from="1698398232186" duration="605000" />
-      <workItem from="1698746313422" duration="5351000" />
+      <workItem from="1698746313422" duration="9802000" />
+      <workItem from="1698914090329" duration="6738000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1690444865290</created>
@@ -550,15 +557,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694002628525</updated>
     </task>
-    <task id="LOCAL-00074" summary="Graph problem - print adjacency list of given graph">
+    <task id="LOCAL-00077" summary="Graph problem - topological sorting with in degree (fixed)">
       <option name="closed" value="true" />
-      <created>1698747705625</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
+      <created>1698921480312</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
       <option name="project" value="LOCAL" />
-      <updated>1698747705625</updated>
+      <updated>1698921480312</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -588,9 +595,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="easy Tree problem - Count Leaves in Binary tree" />
-    <MESSAGE value="easy Tree problem - Size of Binary Tree" />
-    <MESSAGE value="easy Tree problem - Sum of nodes of Binary Tree" />
     <MESSAGE value="easy Tree problem - Count non-leaf nodes in Binary tree" />
     <MESSAGE value="easy Tree problem - Mininum element in Binary Search Tree" />
     <MESSAGE value="easy Tree problem - Left View of Binary tree" />
@@ -613,7 +617,10 @@
     <MESSAGE value="doc: added a clear README file and related documentation for repo" />
     <MESSAGE value="Graph problem (tutorial weblab) - Transform a graph from adjacency matrix to adjacency map and vice versa (COMPLETED 100/100)" />
     <MESSAGE value="Graph problem - print adjacency list of given graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="Graph problem - print adjacency list of given graph" />
+    <MESSAGE value="Graph problem - topological sorting techniques of DAGs" />
+    <MESSAGE value="Graph problem - count possible paths from given edges in a graph (INCOMPLETE)" />
+    <MESSAGE value="Graph problem - topological sorting with in degree (fixed)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Graph problem - topological sorting with in degree (fixed)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
