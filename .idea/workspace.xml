@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="Graph problem - Detect cycles in Udirected graph using DFS (from GFG)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/DetectCycleInDirectedGraph.java" afterDir="false" />
+    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="Graph problem - Detect cycles in Directed graph using DFS (from GFG)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/DijkstraAlgorithmImplementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -219,7 +219,7 @@
       <workItem from="1698746313422" duration="9802000" />
       <workItem from="1698914090329" duration="16819000" />
       <workItem from="1699178294773" duration="615000" />
-      <workItem from="1699258530089" duration="3147000" />
+      <workItem from="1699258530089" duration="7901000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1690444865290</created>
@@ -557,15 +557,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694002628525</updated>
     </task>
-    <task id="LOCAL-00081" summary="Graph problem - Detect cycles in Udirected graph using DFS (from GFG)">
+    <task id="LOCAL-00082" summary="Graph problem - Detect cycles in Directed graph using DFS (from GFG)">
       <option name="closed" value="true" />
-      <created>1699261376075</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
+      <created>1699262135201</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
       <option name="project" value="LOCAL" />
-      <updated>1699261376075</updated>
+      <updated>1699262135201</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,7 +595,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="easy Tree problem - Level order traversal of Binary tree" />
     <MESSAGE value="Easy Tree problem - Level order traversal of Binary tree" />
     <MESSAGE value="Merge pull request #1 from achakravorty/new_branch&#10;&#10;New branch" />
     <MESSAGE value="Explanation of Map Operations" />
@@ -620,7 +619,8 @@
     <MESSAGE value="Graph problem (weblab) - Kruksal's algorithm for MST (COMPLETE 100/100)" />
     <MESSAGE value="Graph problem - Kruksal's algorithm for MST (from GFG)" />
     <MESSAGE value="Graph problem - Detect cycles in Udirected graph using DFS (from GFG)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Graph problem - Detect cycles in Udirected graph using DFS (from GFG)" />
+    <MESSAGE value="Graph problem - Detect cycles in Directed graph using DFS (from GFG)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Graph problem - Detect cycles in Directed graph using DFS (from GFG)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
