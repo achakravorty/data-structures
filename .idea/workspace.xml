@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="Graph problem (tutorial weblab) - Check if graph is a DAG (COMPLETED 100/100)">
-      <change afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
+    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="Graph problem - Detect cycles in Directed graph using DFS (from GFG)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/DijkstraAlgorithmImplementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,35 +92,9 @@
       <recent name="Arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReachingForNodesBFSTest">
-    <configuration name="DepthFirstTraversalGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph.weblab.DepthFirstTraversalGraph" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Graph.weblab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReachingForNodesBFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph.weblab.ReachingForNodesBFS" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Graph.weblab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testDFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph.testDFS" />
+  <component name="RunManager" selected="Application.KruksalsMSTAlgo">
+    <configuration name="KruksalsMSTAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.KruksalsMSTAlgo" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -135,7 +106,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReachingForNodesBFSTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KruksalsAlgorithmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -144,13 +115,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Graph.weblab" />
-      <option name="MAIN_CLASS_NAME" value="Graph.weblab.ReachingForNodesBFSTest" />
+      <option name="MAIN_CLASS_NAME" value="Graph.weblab.KruksalsAlgorithmTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReachingForNodesBFSTest.testWeighted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KruksalsAlgorithmTest.assertMST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -159,8 +130,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Graph.weblab" />
-      <option name="MAIN_CLASS_NAME" value="Graph.weblab.ReachingForNodesBFSTest" />
-      <option name="METHOD_NAME" value="testWeighted" />
+      <option name="MAIN_CLASS_NAME" value="Graph.weblab.KruksalsAlgorithmTest" />
+      <option name="METHOD_NAME" value="assertMST(int,java.util.List,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KruksalsAlgorithmTest.completeGraphTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graph.weblab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Graph.weblab" />
+      <option name="MAIN_CLASS_NAME" value="Graph.weblab.KruksalsAlgorithmTest" />
+      <option name="METHOD_NAME" value="completeGraphTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KruksalsAlgorithmTest.emptyGraphTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graph.weblab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Graph.weblab" />
+      <option name="MAIN_CLASS_NAME" value="Graph.weblab.KruksalsAlgorithmTest" />
+      <option name="METHOD_NAME" value="emptyGraphTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ReachingForNodesBFSTest.testWeighted" />
-        <item itemvalue="JUnit.ReachingForNodesBFSTest" />
-        <item itemvalue="Application.testDFS" />
-        <item itemvalue="Application.ReachingForNodesBFS" />
-        <item itemvalue="Application.DepthFirstTraversalGraph" />
+        <item itemvalue="JUnit.KruksalsAlgorithmTest.emptyGraphTest" />
+        <item itemvalue="JUnit.KruksalsAlgorithmTest.completeGraphTest" />
+        <item itemvalue="JUnit.KruksalsAlgorithmTest.assertMST" />
+        <item itemvalue="JUnit.KruksalsAlgorithmTest" />
+        <item itemvalue="Application.KruksalsMSTAlgo" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +211,15 @@
       <workItem from="1695190421087" duration="20616000" />
       <workItem from="1695826611292" duration="2280000" />
       <workItem from="1696518201192" duration="348000" />
-      <workItem from="1696928348747" duration="1589000" />
+      <workItem from="1696928348747" duration="2876000" />
+      <workItem from="1697141410563" duration="704000" />
+      <workItem from="1697535625227" duration="4340000" />
+      <workItem from="1698228122058" duration="1797000" />
+      <workItem from="1698398232186" duration="605000" />
+      <workItem from="1698746313422" duration="9802000" />
+      <workItem from="1698914090329" duration="16819000" />
+      <workItem from="1699178294773" duration="615000" />
+      <workItem from="1699258530089" duration="7901000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1690444865290</created>
@@ -546,15 +557,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694002628525</updated>
     </task>
-    <task id="LOCAL-00071" summary="Graph problem (tutorial weblab) - Check if graph is a DAG (COMPLETED 100/100)">
+    <task id="LOCAL-00082" summary="Graph problem - Detect cycles in Directed graph using DFS (from GFG)">
       <option name="closed" value="true" />
-      <created>1696928501704</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
+      <created>1699262135201</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
       <option name="project" value="LOCAL" />
-      <updated>1696928501705</updated>
+      <updated>1699262135201</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -584,17 +595,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="easy Array problem - First Negative integer in every window of size K" />
-    <MESSAGE value="easy Stack problem - Deleting middle element of a stack" />
-    <MESSAGE value="easy Tree problem - Post Order traversal of Binary tree (with recursion)" />
-    <MESSAGE value="easy Tree problem - Count Leaves in Binary tree" />
-    <MESSAGE value="easy Tree problem - Size of Binary Tree" />
-    <MESSAGE value="easy Tree problem - Sum of nodes of Binary Tree" />
-    <MESSAGE value="easy Tree problem - Count non-leaf nodes in Binary tree" />
-    <MESSAGE value="easy Tree problem - Mininum element in Binary Search Tree" />
-    <MESSAGE value="easy Tree problem - Left View of Binary tree" />
-    <MESSAGE value="easy Tree problem - Height of Binary tree" />
-    <MESSAGE value="easy Tree problem - Level order traversal of Binary tree" />
     <MESSAGE value="Easy Tree problem - Level order traversal of Binary tree" />
     <MESSAGE value="Merge pull request #1 from achakravorty/new_branch&#10;&#10;New branch" />
     <MESSAGE value="Explanation of Map Operations" />
@@ -609,7 +609,18 @@
     <MESSAGE value="Graph problem (weblab) - Reaching for Nodes with BFS (COMPLETED - 100/100)" />
     <MESSAGE value="Graph problem (tutorial weblab) - Check if vertex in the grapggh is part of a cycle (COMPLETED 100/100)" />
     <MESSAGE value="Graph problem (tutorial weblab) - Check if graph is a DAG (COMPLETED 100/100)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Graph problem (tutorial weblab) - Check if graph is a DAG (COMPLETED 100/100)" />
+    <MESSAGE value="doc: added a clear README file and related documentation for repo" />
+    <MESSAGE value="Graph problem (tutorial weblab) - Transform a graph from adjacency matrix to adjacency map and vice versa (COMPLETED 100/100)" />
+    <MESSAGE value="Graph problem - print adjacency list of given graph" />
+    <MESSAGE value="Graph problem - topological sorting techniques of DAGs" />
+    <MESSAGE value="Graph problem - count possible paths from given edges in a graph (INCOMPLETE)" />
+    <MESSAGE value="Graph problem - topological sorting with in degree (fixed)" />
+    <MESSAGE value="Graph problem (weblab) - shortest path problem using dijkstra's algorithm (INCOMPLETE 5/6)" />
+    <MESSAGE value="Graph problem (weblab) - Kruksal's algorithm for MST (COMPLETE 100/100)" />
+    <MESSAGE value="Graph problem - Kruksal's algorithm for MST (from GFG)" />
+    <MESSAGE value="Graph problem - Detect cycles in Udirected graph using DFS (from GFG)" />
+    <MESSAGE value="Graph problem - Detect cycles in Directed graph using DFS (from GFG)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Graph problem - Detect cycles in Directed graph using DFS (from GFG)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
