@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="Graph problem (weblab) - Kruksal's algorithm for MST (COMPLETE 100/100)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/KruksalsMSTAlgo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/weblab/KruksalsAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/weblab/KruksalsAlgorithm.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/weblab/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/weblab/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Graph/weblab/KruksalsAlgorithmTest.java" afterDir="false" />
+    <list default="true" id="a134dba4-3d2d-449a-920b-73db71dc60dd" name="Changes" comment="Graph problem - Kruksal's algorithm for MST (from GFG)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/DetectCycleInDirectedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/DetectCycleInUnDirectedGraph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KruksalsMSTAlgo" />
-        <item itemvalue="JUnit.KruksalsAlgorithmTest.completeGraphTest" />
         <item itemvalue="JUnit.KruksalsAlgorithmTest.emptyGraphTest" />
-        <item itemvalue="JUnit.KruksalsAlgorithmTest" />
+        <item itemvalue="JUnit.KruksalsAlgorithmTest.completeGraphTest" />
         <item itemvalue="JUnit.KruksalsAlgorithmTest.assertMST" />
+        <item itemvalue="JUnit.KruksalsAlgorithmTest" />
+        <item itemvalue="Application.KruksalsMSTAlgo" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +218,9 @@
       <workItem from="1698228122058" duration="1797000" />
       <workItem from="1698398232186" duration="605000" />
       <workItem from="1698746313422" duration="9802000" />
-      <workItem from="1698914090329" duration="13929000" />
+      <workItem from="1698914090329" duration="16819000" />
+      <workItem from="1699178294773" duration="615000" />
+      <workItem from="1699258530089" duration="2350000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1690444865290</created>
@@ -560,15 +558,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694002628525</updated>
     </task>
-    <task id="LOCAL-00078" summary="Graph problem (weblab) - shortest path problem using dijkstra's algorithm (INCOMPLETE 5/6)">
+    <task id="LOCAL-00080" summary="Graph problem - Kruksal's algorithm for MST (from GFG)">
       <option name="closed" value="true" />
-      <created>1698923701498</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
+      <created>1698941912809</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
       <option name="project" value="LOCAL" />
-      <updated>1698923701498</updated>
+      <updated>1698941912809</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -598,7 +596,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="easy Tree problem - Left View of Binary tree" />
     <MESSAGE value="easy Tree problem - Height of Binary tree" />
     <MESSAGE value="easy Tree problem - Level order traversal of Binary tree" />
     <MESSAGE value="Easy Tree problem - Level order traversal of Binary tree" />
@@ -623,7 +620,8 @@
     <MESSAGE value="Graph problem - topological sorting with in degree (fixed)" />
     <MESSAGE value="Graph problem (weblab) - shortest path problem using dijkstra's algorithm (INCOMPLETE 5/6)" />
     <MESSAGE value="Graph problem (weblab) - Kruksal's algorithm for MST (COMPLETE 100/100)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Graph problem (weblab) - Kruksal's algorithm for MST (COMPLETE 100/100)" />
+    <MESSAGE value="Graph problem - Kruksal's algorithm for MST (from GFG)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Graph problem - Kruksal's algorithm for MST (from GFG)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
